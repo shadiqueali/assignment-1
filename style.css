@@ -1,0 +1,365 @@
+.header{
+    color:white;
+    background-color: red;
+    width: 300px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+   line-height: 50%;
+}
+.header h4, .header p{
+text-align: center;
+font-weight: bold;
+}
+.header p{
+    font-size: small;
+}
+.card-1{
+    width: 300px;
+    border-radius: 30px 30px 0 0;
+    background-color: white;
+    position:relative;
+    top: -20px;
+}
+
+.arrow-icon{
+    display: flex;
+  justify-content: center;
+}
+.profile{
+    padding-left: 10px;
+}
+.profile img{
+    width:40px;
+    border-radius: 50%;
+}
+.profile .shipper{
+    color: gray;
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+    font-size: small;
+    
+}
+.profile .name{
+    color: black;
+    position: relative;
+    left: -73px;
+    font-size: small;
+    font-weight: bold;
+    
+}
+.star{
+   position: relative;
+   top: -26px;
+   left: 46px;
+ 
+  
+ 
+}
+
+    
+.checked{
+    color: yellow;
+}
+.checked-1{
+    color: gray;
+}
+.phone{
+    position: relative;
+    left: 250px;
+    top: -65px;
+    color: lightcoral;
+}
+.border{
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -40px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+    font-size: small;
+    font-weight: bold;
+    color: grey;
+}
+.details span:nth-child(1){
+   position: relative;
+   left: -10px;
+}
+.details span:nth-child(2){
+    position: relative;
+    left: -23px;
+
+}
+.details span:nth-child(3){
+    position: relative;
+    right:-10px ;
+}
+.details-1{
+    position: relative;
+    top: -25px;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    
+}
+.details-1 span:nth-child(1){
+    position: relative;
+    left: 10px;
+    
+}
+.details-1 span:nth-child(2){
+    position: relative;
+    left:63px;
+    font-weight: bolder;
+}
+.border-1{
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -10px;
+}
+svg circle{
+    fill:none;
+    stroke: black;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+    stroke-width: 1px;
+    
+}
+.stroke-1{
+    stroke: red;
+    stroke-dasharray: 55;
+    /* stroke-dashoffset:15; */
+}
+#tick-mark {
+    position: relative;
+    display: inline-block;
+    top: -155px;
+    left: 6px;
+    width: 14px;
+    height: 12px;
+}
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 1px;
+    background-color:red;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color:red;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.stroke-2{
+    stroke: black;
+}
+.circle-2{
+    position: relative;
+    top: -150px;
+}
+.progress-circle{
+    padding-left: 10px;
+}
+#tick-mark-2 {
+    position: relative;
+    display: inline-block;
+    top: -155px;
+    left: 6px;
+    width: 14px;
+    height: 12px;
+}
+#tick-mark-2::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 1px;
+    background-color:black;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark-2::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color:black;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.line{
+    height: 40px;
+    border-left: 1px dashed red;
+    position: relative;
+    top: -150px;
+    left: 15px;
+}
+.line-2{
+    border-color: black;
+}
+.circle-3{
+    position: relative;
+    top: -300px;
+}
+.order span:nth-child(1){
+    position:relative;
+    top: -620px;
+    left: 55px;
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+}
+.order span:nth-child(2){
+    position: relative;
+    top: -590px;
+    left: -5px;
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+}
+.order button{
+    position: relative;
+    top: -610px;
+    left: 30px;
+   height: 30px;
+   background-color:rgb(233, 231, 231);
+   border: none;
+   border-radius: 5px;
+   color: red;
+   font-weight: bold;
+   font-size: small;
+   cursor: pointer;
+}
+.border-2{
+    border-bottom: 1px solid gray;
+    position: relative;
+    top: -585px;
+   
+   max-width: 247px;
+    left:54px;
+    overflow: hidden;
+}
+.order span:nth-child(5){
+    position: relative;
+    top:-580px;
+    left: 54px;
+    color: gray;
+}
+.order span:nth-child(6){
+    position: relative;
+    top: -555px;
+    left: 2px;
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+}
+.border-3{
+    position: relative;
+    top: -550px;
+}
+.order span:nth-child(8){
+    position: relative;
+    top:-545px;
+    left: 54px;
+    color: gray;
+}
+.order span:nth-child(9){
+    position: relative;
+    top: -520px;
+    left: 2px;
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.icon{
+    width: 300px;
+    background-color: whitesmoke;
+    height: 60px;
+    position: relative;
+    top:-525px;
+    padding: 10px;
+   
+  }
+  .icons,.icons-name{
+      display: flex;
+      justify-content: space-around;
+    
+  }
+  .icons{
+      cursor: pointer;
+  }
+  .icons-name{
+      font-size:10px;
+      font-weight: bolder;
+      color: black;
+  }
+.icons span:nth-child(1){
+    position: relative;
+    left: -20px;
+}
+.icons span:nth-child(2){
+    position: relative;
+    left: -10px;
+}
+.icons span:nth-child(4){
+    position: relative;
+    left: 10px;
+}
+.icons-name span:nth-child(1){
+    position: relative;
+    left:-20px;
+}
+.icons-name span:nth-child(2){
+    position: relative;
+    left:-12px;
+}
+.icons-name span:nth-child(4){
+    position: relative;
+    left:8px;
+}
+#a:hover,#b:hover,#c:hover,#d:hover{
+    color:red ;
+}
+.mobile-icons{
+   padding: 10px;
+   position: relative;
+   top: -540px;
+}
+.mobile-icons span:nth-child(1){
+    position: relative;
+    left: 70px;
+}
+.mobile-icons span:nth-child(2){
+    position: relative;
+    left: 115px;
+    top: 3px;
+}
+.mobile-icons span:nth-child(3){
+    position: relative;
+    left: 165px;
+    top: 3px;
+}
+
+
+
+
+
+
